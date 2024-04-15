@@ -58,9 +58,13 @@ body {
   color: #2e2f42;
 }
 
+.menu-item-s:hover,
+.menu-item-s:focus {
+  color: #404bbf;
+}
+
 .menu-item-studio:hover,
-.menu-item-studio:focus,
-.menu-item-s {
+.menu-item-studio:focus {
   color: #404bbf;
 }
 /* ------------------ */
