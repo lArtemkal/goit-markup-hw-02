@@ -63,8 +63,8 @@ body {
   color: #404bbf;
 } */
 
-.item-name:hover,
-.item-name:focus{
+.menu-item-studio .item-name:hover,
+.menu-item-studio .item-name:focus {
   color: #404bbf;
 }
 
