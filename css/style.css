@@ -58,15 +58,20 @@ body {
   color: #2e2f42;
 }
 
-.menu-item-s:hover,
+/* .menu-item-s:hover,
 .menu-item-s:focus {
+  color: #404bbf;
+} */
+
+.item-name:hover,
+.item-name:focus{
   color: #404bbf;
 }
 
-.menu-item-studio:hover,
+/* .menu-item-studio:hover,
 .menu-item-studio:focus {
   color: #404bbf;
-}
+} */
 /* ------------------ */
 .menu-item:hover {
   color: #404bbf;
