@@ -39,7 +39,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
+/* ===================== */
 .menu-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -58,11 +58,11 @@ body {
   color: #2e2f42;
 }
 
-.menu-item-studio:hover,
+.menu-item-sstudio:hover,
 .menu-item-studio:focus {
   color: #404bbf;
 }
-
+/* ------------------ */
 .menu-item:hover {
   color: #404bbf;
 }
