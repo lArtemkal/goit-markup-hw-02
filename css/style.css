@@ -40,7 +40,7 @@ body {
   color: #4d5ae5;
 }
 /* ===================== */
-.menu-item {
+.item-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -49,7 +49,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-item-studio {
+.menu-item-studio .item-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -58,7 +58,7 @@ body {
   color: #2e2f42;
 }
 
-.menu-item-sstudio:hover,
+.menu-item-studio:hover,
 .menu-item-studio:focus {
   color: #404bbf;
 }
