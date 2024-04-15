@@ -15,25 +15,19 @@ button {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
+  color: #434455;
 }
 
 /* Стилі для Header */
-
-/* .page-header{
-    border-bottom: 1px solid #e7e9fc;
-width: 1440px;
-height: 72px;
-background: #fff;
-} */
 
 .first-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .logo {
@@ -43,15 +37,10 @@ background: #fff;
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
-/* .menu{
-    width: 261px;
-height: 24px;
-} */
-
-.menu .menu-item {
+.menu-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -60,7 +49,12 @@ height: 24px;
   color: #2e2f42;
 }
 
-.menu .menu-item:hover {
+.item-studio:hover,
+.item-studio:focus {
+  color: #404bbf;
+}
+
+.menu-item:hover {
   color: #404bbf;
 }
 
@@ -74,7 +68,13 @@ height: 24px;
   font-style: normal;
 }
 
-.menu-link:hover {
+.page-adress {
+  text-transform: inherit;
+  font-style: normal;
+}
+
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
@@ -88,7 +88,7 @@ height: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -102,6 +102,11 @@ height: 24px;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 /* Our benefits */
@@ -138,10 +143,11 @@ height: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-name {
@@ -166,14 +172,15 @@ height: 24px;
 
 /* Our Portfolio */
 
-.our-portfolio{
+.our-portfolio {
   font-family: "Roboto", sans-serif;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11111;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-name {
@@ -212,7 +219,7 @@ color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
@@ -222,7 +229,7 @@ color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
